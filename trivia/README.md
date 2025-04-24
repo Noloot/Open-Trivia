@@ -1,12 +1,34 @@
-# React + Vite
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Fetches trivia questions from the Open Trivia DB API
 
-Currently, two official plugins are available:
+    Allows users to select a category and difficulty
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Displays one question at a time with multiple choice answers
 
-## Expanding the ESLint configuration
+    Provides instant feedback on whether the selected answer was correct
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Users can restart and try another question
+
+Built With
+    React
+
+    Open Trivia DB API
+
+    JavaScript (ES6+)
+
+    HTML5 / CSS3
+
+Folder Structure
+css
+
+src/
+├── components/
+│   ├── HomeForm.jsx
+│   ├── QuestionForm.jsx
+│   ├── Results.jsx
+├── App.jsx
+├── index.js
+├── styles/
+│   ├── Question.css
+
