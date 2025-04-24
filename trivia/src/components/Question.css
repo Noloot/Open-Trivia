@@ -1,0 +1,22 @@
+.question-form{
+    background-color: pink;
+    border-color: red;
+    border-radius: 12px;
+    margin-left: 275px;
+    text-align: center;
+}
+
+.home-form{
+    background-color: rgb(255, 0, 225);
+    text-align: center;
+    margin-left: 200px;
+}
+
+.result-section{
+    color: orange;
+    margin-left: 350px;
+}
+
+body{
+    background-color: rgba(6, 6, 6, 0.9);
+}
